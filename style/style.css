@@ -1,0 +1,63 @@
+body{
+    padding: 0;
+    margin: 0;
+/*    background: #000;*/
+    font-family: HelveticaNeue;
+}
+
+
+/**/
+
+.text_align{
+    text-align: center;
+}
+/**/
+/*---------------------------------------navigate*/
+.upper_line {
+    background-color: #2ecc71;
+    width: 100%;
+    height: 10px;   
+}
+
+.header {
+    height: 600px;
+    width: 100%;
+    background-image: url(image/background.png)
+}
+
+.navigate_item > div{
+    margin: 31px 0;
+}
+
+.navigate_item{
+    padding: 0px 40px;
+}
+
+/*---//////-------------------------------navigate*/
+
+.wrapper_icon {
+    width: 98px;
+    height: 98px;
+    background: #2ecc71;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.wrapper_icon img{
+    margin: 24px;
+}
+
+.title {
+    font-family: Raleway;
+    color: #222222;
+    font-size: 22px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 600;
+    
+}
+
+.description{
+    font-family: HelveticaNeue;
+    color:  #848484;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    pedding-: 
+}
