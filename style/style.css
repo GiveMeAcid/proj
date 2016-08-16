@@ -2,17 +2,101 @@ body{
     padding: 0;
     margin: 0;
 /*    background: #000;*/
-    font-family: HelveticaNeue;
+    font-family: HelveticaNeue, Arial;
 }
-
 
 /**/
 
 .text_align{
     text-align: center;
 }
+
+.wrapper_logo{
+    color: white;
+    padding-left: 145px;    
+}
+
+.wrapper_logo p{
+    font-family: HelveticaNeue, Arial;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+h2{
+    font-family: Pacifico, Arial;
+    color:  #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.dotted_header{
+    color: #2ecc71;
+    font-size: 60px;
+    font-weight: 400;
+    border-radius: 50%;
+}
+
+.hand img {
+    margin: 95px;
+    width: 439px;
+    height: 505px;
+}
+
+.wrapper_logo div > div {
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #000000;
+    width: 54px;
+    height: 53px;    
+    background-position: center;
+    transition: all .4s;
+}
+
+.wrapper_logo div>div img{
+    margin: 13px 16px;
+}
+
+.wrapper_logo div > div:hover{
+    background: #2ecc71;
+    cursor: pointer;    
+}
+
 /**/
 /*---------------------------------------navigate*/
+
+.wrapper_icon {
+    width: 98px;
+    height: 98px;
+    background: #2ecc71;
+    margin: 0 auto;
+    border-radius: 50%;    
+    transition: all .4s;
+}
+
+.wrapper_icon:hover {
+    background: #ff0000;
+    cursor:pointer;
+}
+
+.wrapper_icon img{
+    margin: 24px;
+}
+
+.title {
+    font-family: Raleway, Arial;
+    color: #222222;
+    font-size: 22px;
+    font-weight: 600;    
+}
+
+.description{
+    font-family: HelveticaNeue, Arial;
+    color:  #848484;
+    font-size: 16px;
+    font-weight: 400;     
+}
+
 .upper_line {
     background-color: #2ecc71;
     width: 100%;
@@ -22,7 +106,7 @@ body{
 .header {
     height: 600px;
     width: 100%;
-    background-image: url(image/background.png)
+    background-image: url(image/background.png)  
 }
 
 .navigate_item > div{
@@ -35,29 +119,230 @@ body{
 
 /*---//////-------------------------------navigate*/
 
-.wrapper_icon {
-    width: 98px;
-    height: 98px;
-    background: #2ecc71;
-    margin: 0 auto;
-    border-radius: 50%;
-}
-.wrapper_icon img{
-    margin: 24px;
+
+/*----------------------------------------feedback*/
+
+.feedback{
+    background-color:  #e3e3e3;
+    height: 427px;
+    width: 100%;     
 }
 
-.title {
-    font-family: Raleway;
-    color: #222222;
-    font-size: 22px; /* Приближение из-за подстановки шрифтов */
+.feedback .container{
+    margin-top: 59px;    
+}
+
+.feedback .row{
+    margin: 59px 0 0 20px;    
+}
+
+.feedback h2{
+    font-family: Raleway, Arial;
+    color:  #222222;
+    font-size: 22px;
     font-weight: 600;
-    
 }
 
-.description{
-    font-family: HelveticaNeue;
+.feedback p{
+    font-family: HelveticaNeue, Arial;
     color:  #848484;
-    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-size: 16px;
     font-weight: 400;
-    pedding-: 
 }
+
+.wrapper_auth{
+     width: 300px;
+}
+
+.wrapper_auth > div,input{
+    display: inline-block;
+}
+
+.email{
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #c8c8c8;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    height: 56px;
+    width: 300px;    
+    -webkit-border-top-left-radius: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    -moz-border-radius-topleft: 15px;
+    -moz-border-radius-bottomleft: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.email1{   
+    position: relative;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    background-color: #2ecc71;
+    height: 56px;
+    width: 141px;
+    margin: -55px 300px;
+    /* text-align: center; */
+}
+
+.N_mail{
+    margin: 30px 41px;
+    font-family: Raleway, Arial;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 50px;   
+}
+
+.feedback img{
+    margin: -171px 0px 0px 600px;
+}
+
+/*--//////--------------------------------feedback*/
+
+
+/*-----------------------------contact_information*/
+
+.contact_information {
+    background-color: #fff;
+    height:  466px;
+}
+
+.contact_text{
+    margin: 60px 0 0 0;
+    text-align: center;
+}
+
+.contact_text p{
+    font-family: HelveticaNeue, Arial;
+    color:  #848484;
+    font-size: 18px;
+    font-style: italic;    
+}
+
+.contact_text h2{
+    margin: 26px 0 0 0;
+    font-family: Raleway, Arial;
+    color:  #2e2e2e;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.contact_photos{
+    margin: 29px 0 0 0;
+    text-align: center;
+}
+
+.say_hi h2{
+    margin: 59 0 0 0;
+    font-family: Raleway, Arial;
+    color:  #000000;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.say_hi p{
+    margin: 21px 0 0 0;
+    font-family: HelveticaNeue, Arial;
+    color:  #848484;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.contact_information .container .row{
+    display: inline-block;
+    margin: 25px 0 0 0;
+    text-align: center;
+    border-radius: 50%;    
+}
+
+.contact_information .container .row > div{
+    text-align: center;
+    display: inline-block;
+    margin: 0 6px;
+}
+
+.network1{    
+    border-radius: 50%;
+    background-color: #c5c5c5;
+    background-image: url(image/twitter_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+}
+
+.network2{
+    border-radius: 50%;
+    background-color: #c5c5c5;
+    background-image: url(image/facebook_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+}
+
+.network3{
+    border-radius: 50%;
+    background-color: #c5c5c5;
+    background-image: url(image/ppp_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+}
+
+.network4{
+    border-radius: 50%;
+    background-color: #c5c5c5;
+    background-image: url(image/google_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+}
+
+.row .network5{
+    border-radius: 50%;
+    background-color: #c5c5c5;
+    background-image: url(image/linkedIn_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+}
+
+.network6{
+    border-radius: 50%;
+    background-color: #c5c5c5;
+    background-image: url(image/youtube_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+}
+/*--//////---------------------contact_information*/
+
+
+/*------------------------------------support_info*/
+
+.support_info{
+    background-color:  #e3e3e3;
+    width: 100%;
+    height: 130px;    
+}
+
+.support_info .container p{
+    font-family: HelveticaNeue, Arial;
+    color:  #848484;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;    
+    margin: 60px 0 0 0;
+    word-spacing: 30px;
+}
+
+
+/*--//////----------------------------support_info*/
+
+
